@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'Italiana';
+    src: url('./Italiana-Regular.woff2') format('woff2'),
+        url('./Italiana-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    font-family: Italiana;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    gap: 100px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li > button {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+button {
+    height: 35px;
+    width: 150px;
+    background-color: white;
+    border: 1px solid rgb(255, 184, 156);
+    border-radius: 10px;
+}
+
+#our {
+    width: 250px;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.content-bot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+img {
+    height: 350px;
+    width: 500px;
+}
+
+.content-words {
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+p {
+    font-weight: 600;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
