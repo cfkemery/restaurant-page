@@ -1,3 +1,5 @@
+import {initial} from "./initial.js";
 import "./styles.css";
+import foodImage from "./food-pic.jpg";
 
-console.log("Welcome to my restaurant!");
+initial(foodImage);
