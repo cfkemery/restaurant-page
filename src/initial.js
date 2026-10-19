@@ -1,4 +1,6 @@
-const initial = (foodImage) => {
+import foodImage from "./food-pic.jpg";
+
+const initial = () => {
 
 const contentDiv = document.getElementById("content");
 
