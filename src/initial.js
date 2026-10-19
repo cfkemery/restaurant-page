@@ -3,6 +3,7 @@ import foodImage from "./food-pic.jpg";
 const initial = () => {
 
 const contentDiv = document.getElementById("content");
+contentDiv.replaceChildren();
 
 const header = document.createElement("h1");
 header.textContent = "Italiana Ristorante";
